@@ -117,6 +117,47 @@ button {
 
 .thirdsection {
     background-color: #E5E7EB;
+    padding: 50px 360px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.third {
+    margin: auto;
+}
+
+.author {
+    margin-left: auto;
+}
+
+.fourthsection {
+    background-color: #F9FAF8;
+    padding: 70px 110px;
+}
+
+.blue {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 30px 120px;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    gap: 200px;
+} 
+.fourth {
+    margin: 0px;
+}
+.signup {
+    margin: auto;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 1px;
+    color: aliceblue;
+    margin-left: auto;
 }
 
 
