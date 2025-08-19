@@ -80,5 +80,12 @@ button {
     background-color: #E5E7EB;
 }
 
+.image {
+    height: 160px;
+    width: 160px;
+    border-radius: 20px;
+    border-color: #3882F6;
+    border-style: solid;
+}
 
 
