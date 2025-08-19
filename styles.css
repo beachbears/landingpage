@@ -78,14 +78,41 @@ button {
 
 .secondsection {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 100px 70px;
 }
 
+.interiors {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 .image {
-    height: 160px;
-    width: 160px;
+    height: 190px;
+    width: 190px;
     border-radius: 20px;
     border-color: #3882F6;
-    border-style: solid;
+    border-style: solid; 
+}
+.interior {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 200px;
+    gap: 8px;
+}
+.text {
+    text-align: center;
+}
+
+.secondtitle {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 26px;
 }
 
 
