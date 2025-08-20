@@ -17,8 +17,8 @@ body {
 }
 
 .logo {
-    width: 40px;
-    height: 36px;
+    width: 50px;
+    height: 40px;
 }
 
 li {
@@ -29,6 +29,7 @@ a {
      text-decoration: none;
      font-style: Roboto;
      color: #E5E7EB;
+     font-size: 18px;
 }
 
 ul {
@@ -82,7 +83,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 100px 70px;
+    padding: 50px 100px 100px;
 }
 
 .interiors {
@@ -117,7 +118,7 @@ button {
 
 .thirdsection {
     background-color: #E5E7EB;
-    padding: 50px 360px;
+    padding: 60px 230px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -128,6 +129,7 @@ button {
 
 .third {
     margin: auto;
+    font-size: 23px;
 }
 
 .author {
@@ -136,28 +138,43 @@ button {
 
 .fourthsection {
     background-color: #F9FAF8;
-    padding: 70px 110px;
+    padding: 70px 140px;
 }
 
 .blue {
     background-color: #3882F6;
     border-radius: 5px;
     padding: 30px 120px;
-    justify-content: space-between;
-    flex-direction: row;
     display: flex;
-    gap: 200px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 } 
 .fourth {
     margin: 0px;
+    color: #E5E7EB;
+    font-size: 12px;
+    padding-top: 4px;
+}
+.call { 
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 800;
 }
 .signup {
-    margin: auto;
     border-style: solid;
     border-color: #F9FAF8;
     border-width: 1px;
     color: aliceblue;
-    margin-left: auto;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px ;
+    color: aliceblue;
 }
 
 
